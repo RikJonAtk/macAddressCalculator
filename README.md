@@ -30,11 +30,15 @@ c0:ff:ee:ca:fe:00, c0:ff:ee:2f:e0:00
 Examples of macs.csv and processedMacs.csv are included in the repository
 
 # Testing
+
 Tested on Windows 11 with Python v3.9.12
 
 # Issues
+
 No error handling of any kind.
+
 Not extensively tested - use at your own peril.
 
-#Feedback
-Most welcome
+# Feedback
+
+Most welcome!
