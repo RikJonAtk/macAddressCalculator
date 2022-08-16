@@ -11,18 +11,21 @@ The code is deliberately not condensed in any way as I wanted to make it super e
 Download the "macAddressCalculator.py" Python script and provide a file called "macs.csv" in the same folder as where you put this script.
 
 The macs.csv file should be a list of MAC addresses, one MAC address per line, and no column header. MAC addresses should be the only thing in the file and they must be colon delimeted.  Eg,
-    
-macs.csv
+
+```
 d0:d3:e0:c1:97:48
 de:ad:be:ef:ca:fe
 c0:ff:ee:ca:fe:00
+```
 
 Run the script and it will output a CSV file in the same location, called processedMacs.csv.  Given the three MAC addresses shown above, processedMacs.csv will contain an output like this;
 
+```
 HW MAC, Base Radio MAC
 d0:d3:e0:c1:97:48, d0:d3:e0:99:74:80
 de:ad:be:ef:ca:fe, de:ad:be:7c:af:e0
 c0:ff:ee:ca:fe:00, c0:ff:ee:2f:e0:00
+```
 
 Examples of macs.csv and processedMacs.csv are included in the repository
 
