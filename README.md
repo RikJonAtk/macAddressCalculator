@@ -8,9 +8,9 @@ I don't have the Excel skills for this, but I do have some Python skills, so her
 The code is deliberately not condensed in any way as I wanted to make it super easy for anybody to be able to compare my code to the algorith described in Timothy's post.
 
 # Usage
-Copy this script and provide a file called "macs.csv" in the same folder as where you put this script.
+Download the "macAddressCalculator.py" Python script and provide a file called "macs.csv" in the same folder as where you put this script.
 
-The macs.csv file should be a list of MAC addresses, one MAC address per line, and no column header. MAC addresses should be the only thing in the file.  Eg,
+The macs.csv file should be a list of MAC addresses, one MAC address per line, and no column header. MAC addresses should be the only thing in the file and they must be colon delimeted.  Eg,
     
 macs.csv
 d0:d3:e0:c1:97:48
